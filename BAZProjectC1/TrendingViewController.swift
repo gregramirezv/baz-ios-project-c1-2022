@@ -17,6 +17,8 @@ class TrendingViewController: UITableViewController {
         
         movies = movieApi.getMovies()
         tableView.reloadData()
+        
+        debugPrint("Changes")
     }
 
 }
